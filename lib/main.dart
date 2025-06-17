@@ -1,4 +1,6 @@
+import 'package:backup_lessgoo/atribusi_data_cust.dart';
 import 'package:backup_lessgoo/kebijakan_privasi_letsdrive.dart';
+import 'package:backup_lessgoo/ketentuan_biaya_merch.dart';
 import 'package:backup_lessgoo/ketentuan_layanan_lessgoo.dart';
 import 'package:backup_lessgoo/ketentuan_layanan_letsdrive.dart';
 import 'package:backup_lessgoo/kebijakan_privasi_letstore.dart';
@@ -22,7 +24,7 @@ class MyApp extends StatelessWidget {
         
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MerchKebijakanPrivasiPage(),
+      home: const AtribusiDataPage(),
     );
   }
 }
