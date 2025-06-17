@@ -204,7 +204,7 @@ class _MerchKetentuanLayananPageState extends State<MerchKetentuanLayananPage> {
                       ),
                     ),
                     SizedBox(height: 10),
-                    Container(
+                    Container(  
                       width: double
                           .infinity, // Agar teks bisa menyesuaikan dengan lebar layar
                       child: RichText(
